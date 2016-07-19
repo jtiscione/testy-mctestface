@@ -1,0 +1,20 @@
+{
+  "name": "testy-mctestface",
+  "version": "1.0.4",
+  "description": "Profiles 12 left-pad implementations",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Testy McTestface <testy@testiness.com>",
+  "license": "NON-SPDX (WTFPL)",
+  "dependencies": {
+    "es-leftpad": "^1.0.0",
+    "left-pad": "^1.1.1",
+    "pad": "^1.0.0",
+    "pad-left": "^2.1.0",
+    "repeat-string": "^1.5.4"
+  }
+}
