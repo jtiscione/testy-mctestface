@@ -1,14 +1,21 @@
 {
   "name": "testy-mctestface",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Profiles 12 left-pad implementations",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
     "start": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Testy McTestface <testy@testiness.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jtiscione/testy-mctestface.git"
+  },
+  "keywords": [
+    "left-pad"
+  ],
+  "author": "Testy McTestface",
   "license": "NON-SPDX (WTFPL)",
   "dependencies": {
     "es-leftpad": "^1.0.0",
@@ -16,5 +23,9 @@
     "pad": "^1.0.0",
     "pad-left": "^2.1.0",
     "repeat-string": "^1.5.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/jtiscione/testy-mctestface/issues"
+  },
+  "homepage": "https://github.com/jtiscione/testy-mctestface#readme"
 }
